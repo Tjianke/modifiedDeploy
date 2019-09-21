@@ -1,0 +1,688 @@
+[2019-09-11 22:27:35 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-11 22:27:35 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-11 22:27:35 +0000] [6] [INFO] Using worker: threads
+[2019-09-11 22:27:35 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-11 22:27:35 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-11 22:27:35 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-11 22:27:35 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-11 22:27:35 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-11 22:27:35 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-11 22:27:35 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-11 22:27:35 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-11 22:32:49 +0000] [8] [INFO] Starting gunicorn 19.9.0
+[2019-09-11 22:32:49 +0000] [8] [INFO] Listening at: http://0.0.0.0:8080 (8)
+[2019-09-11 22:32:49 +0000] [8] [INFO] Using worker: threads
+[2019-09-11 22:32:49 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-11 22:32:49 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-11 22:32:49 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-11 22:32:49 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-11 22:32:49 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-11 22:32:50 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-11 22:32:50 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-11 22:32:50 +0000] [32] [INFO] Booting worker with pid: 32
+[2019-09-11 23:29:26 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:28)
+[2019-09-11 23:29:26 +0000] [28] [INFO] Worker exiting (pid: 28)
+[2019-09-11 23:29:26 +0000] [3242] [INFO] Booting worker with pid: 3242
+[2019-09-11 23:57:39 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:32)
+[2019-09-11 23:57:39 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3242)
+[2019-09-11 23:57:39 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:30)
+[2019-09-11 23:57:39 +0000] [3242] [INFO] Worker exiting (pid: 3242)
+[2019-09-11 23:57:39 +0000] [32] [INFO] Worker exiting (pid: 32)
+[2019-09-11 23:57:39 +0000] [30] [INFO] Worker exiting (pid: 30)
+[2019-09-11 23:57:40 +0000] [4179] [INFO] Booting worker with pid: 4179
+[2019-09-11 23:57:40 +0000] [4180] [INFO] Booting worker with pid: 4180
+[2019-09-11 23:57:40 +0000] [4184] [INFO] Booting worker with pid: 4184
+[2019-09-12 04:15:35 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-12 04:15:35 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-12 04:15:35 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-12 04:15:35 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-12 04:15:36 +0000] [18476] [INFO] Booting worker with pid: 18476
+[2019-09-12 04:15:36 +0000] [18478] [INFO] Booting worker with pid: 18478
+[2019-09-12 07:27:09 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:4179)
+[2019-09-12 07:27:09 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:4184)
+[2019-09-12 07:27:09 +0000] [4184] [INFO] Worker exiting (pid: 4184)
+[2019-09-12 07:27:09 +0000] [4179] [INFO] Worker exiting (pid: 4179)
+[2019-09-12 07:27:10 +0000] [21906] [INFO] Booting worker with pid: 21906
+[2019-09-12 07:27:10 +0000] [21908] [INFO] Booting worker with pid: 21908
+[2019-09-12 07:57:03 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:21908)
+[2019-09-12 07:57:03 +0000] [21908] [INFO] Worker exiting (pid: 21908)
+[2019-09-12 07:57:04 +0000] [22522] [INFO] Booting worker with pid: 22522
+[2019-09-12 11:33:14 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:18478)
+[2019-09-12 11:33:14 +0000] [18478] [INFO] Worker exiting (pid: 18478)
+[2019-09-12 11:33:14 +0000] [29962] [INFO] Booting worker with pid: 29962
+[2019-09-12 11:47:19 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:29962)
+[2019-09-12 11:47:19 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:18476)
+[2019-09-12 11:47:19 +0000] [29962] [INFO] Worker exiting (pid: 29962)
+[2019-09-12 11:47:19 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:20)
+[2019-09-12 11:47:19 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:23)
+[2019-09-12 11:47:19 +0000] [20] [INFO] Worker exiting (pid: 20)
+[2019-09-12 11:47:19 +0000] [18476] [INFO] Worker exiting (pid: 18476)
+[2019-09-12 11:47:19 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:4180)
+[2019-09-12 11:47:19 +0000] [23] [INFO] Worker exiting (pid: 23)
+[2019-09-12 11:47:19 +0000] [4180] [INFO] Worker exiting (pid: 4180)
+[2019-09-12 11:47:20 +0000] [29996] [INFO] Booting worker with pid: 29996
+[2019-09-12 11:47:20 +0000] [29997] [INFO] Booting worker with pid: 29997
+[2019-09-12 11:47:20 +0000] [30000] [INFO] Booting worker with pid: 30000
+[2019-09-12 11:47:20 +0000] [30002] [INFO] Booting worker with pid: 30002
+[2019-09-12 11:47:20 +0000] [30004] [INFO] Booting worker with pid: 30004
+[2019-09-12 12:36:00 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:29996)
+[2019-09-12 12:36:00 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:30002)
+[2019-09-12 12:36:00 +0000] [29996] [INFO] Worker exiting (pid: 29996)
+[2019-09-12 12:36:00 +0000] [30002] [INFO] Worker exiting (pid: 30002)
+[2019-09-12 12:36:00 +0000] [31034] [INFO] Booting worker with pid: 31034
+[2019-09-12 12:36:01 +0000] [31036] [INFO] Booting worker with pid: 31036
+[2019-09-12 13:45:23 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:29997)
+[2019-09-12 13:45:23 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:30000)
+[2019-09-12 13:45:23 +0000] [29997] [INFO] Worker exiting (pid: 29997)
+[2019-09-12 13:45:23 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:21906)
+[2019-09-12 13:45:23 +0000] [30000] [INFO] Worker exiting (pid: 30000)
+[2019-09-12 13:45:23 +0000] [21906] [INFO] Worker exiting (pid: 21906)
+[2019-09-12 13:45:24 +0000] [31187] [INFO] Booting worker with pid: 31187
+[2019-09-12 13:45:24 +0000] [31189] [INFO] Booting worker with pid: 31189
+[2019-09-12 13:45:24 +0000] [31191] [INFO] Booting worker with pid: 31191
+[2019-09-12 14:45:47 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:31187)
+[2019-09-12 14:45:47 +0000] [31187] [INFO] Worker exiting (pid: 31187)
+[2019-09-12 14:45:47 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:31036)
+[2019-09-12 14:45:48 +0000] [31036] [INFO] Worker exiting (pid: 31036)
+[2019-09-12 14:45:48 +0000] [33390] [INFO] Booting worker with pid: 33390
+[2019-09-12 14:45:48 +0000] [33391] [INFO] Booting worker with pid: 33391
+[2019-09-12 15:00:15 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:33391)
+[2019-09-12 15:00:15 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:30004)
+[2019-09-12 15:00:15 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-12 15:00:15 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:31191)
+[2019-09-12 15:00:15 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:31034)
+[2019-09-12 15:00:15 +0000] [33391] [INFO] Worker exiting (pid: 33391)
+[2019-09-12 15:00:15 +0000] [30004] [INFO] Worker exiting (pid: 30004)
+[2019-09-12 15:00:15 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-12 15:00:15 +0000] [31191] [INFO] Worker exiting (pid: 31191)
+[2019-09-12 15:00:15 +0000] [31034] [INFO] Worker exiting (pid: 31034)
+[2019-09-12 15:00:16 +0000] [33427] [INFO] Booting worker with pid: 33427
+[2019-09-12 15:00:16 +0000] [33428] [INFO] Booting worker with pid: 33428
+[2019-09-12 15:00:16 +0000] [33431] [INFO] Booting worker with pid: 33431
+[2019-09-12 15:00:16 +0000] [33433] [INFO] Booting worker with pid: 33433
+[2019-09-12 15:00:16 +0000] [33435] [INFO] Booting worker with pid: 33435
+[2019-09-13 00:04:46 +0000] [8] [INFO] Starting gunicorn 19.9.0
+[2019-09-13 00:04:46 +0000] [8] [INFO] Listening at: http://0.0.0.0:8080 (8)
+[2019-09-13 00:04:46 +0000] [8] [INFO] Using worker: threads
+[2019-09-13 00:04:46 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-13 00:04:46 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-13 00:04:46 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-13 00:04:46 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-13 00:04:46 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-13 00:04:46 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-13 00:04:46 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-13 00:04:46 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-13 02:40:20 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:19)
+[2019-09-13 02:40:20 +0000] [19] [INFO] Worker exiting (pid: 19)
+[2019-09-13 02:40:20 +0000] [5572] [INFO] Booting worker with pid: 5572
+[2019-09-13 05:39:37 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-13 05:39:37 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:5572)
+[2019-09-13 05:39:37 +0000] [5572] [INFO] Worker exiting (pid: 5572)
+[2019-09-13 05:39:37 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-13 05:39:37 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:25)
+[2019-09-13 05:39:37 +0000] [25] [INFO] Worker exiting (pid: 25)
+[2019-09-13 05:39:38 +0000] [13468] [INFO] Booting worker with pid: 13468
+[2019-09-13 05:39:38 +0000] [13469] [INFO] Booting worker with pid: 13469
+[2019-09-13 05:39:38 +0000] [13472] [INFO] Booting worker with pid: 13472
+[2019-09-13 06:59:09 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:13472)
+[2019-09-13 06:59:09 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-13 06:59:09 +0000] [13472] [INFO] Worker exiting (pid: 13472)
+[2019-09-13 06:59:09 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-13 06:59:10 +0000] [16978] [INFO] Booting worker with pid: 16978
+[2019-09-13 06:59:10 +0000] [16980] [INFO] Booting worker with pid: 16980
+[2019-09-13 09:42:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:13469)
+[2019-09-13 09:42:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:16980)
+[2019-09-13 09:42:44 +0000] [16980] [INFO] Worker exiting (pid: 16980)
+[2019-09-13 09:42:44 +0000] [13469] [INFO] Worker exiting (pid: 13469)
+[2019-09-13 09:42:45 +0000] [27798] [INFO] Booting worker with pid: 27798
+[2019-09-13 09:42:45 +0000] [27799] [INFO] Booting worker with pid: 27799
+[2019-09-13 14:01:09 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:27)
+[2019-09-13 14:01:09 +0000] [27] [INFO] Worker exiting (pid: 27)
+[2019-09-13 14:01:10 +0000] [39754] [INFO] Booting worker with pid: 39754
+[2019-09-13 14:51:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:39754)
+[2019-09-13 14:51:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:27799)
+[2019-09-13 14:51:44 +0000] [39754] [INFO] Worker exiting (pid: 39754)
+[2019-09-13 14:51:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:16978)
+[2019-09-13 14:51:44 +0000] [27799] [INFO] Worker exiting (pid: 27799)
+[2019-09-13 14:51:44 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:27798)
+[2019-09-13 14:51:44 +0000] [16978] [INFO] Worker exiting (pid: 16978)
+[2019-09-13 14:51:44 +0000] [27798] [INFO] Worker exiting (pid: 27798)
+[2019-09-13 14:51:44 +0000] [39991] [INFO] Booting worker with pid: 39991
+[2019-09-13 14:51:44 +0000] [39993] [INFO] Booting worker with pid: 39993
+[2019-09-13 14:51:44 +0000] [39994] [INFO] Booting worker with pid: 39994
+[2019-09-13 14:51:44 +0000] [39995] [INFO] Booting worker with pid: 39995
+[2019-09-13 23:58:35 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-13 23:58:35 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-13 23:58:35 +0000] [7] [INFO] Using worker: threads
+[2019-09-13 23:58:35 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-13 23:58:35 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-13 23:58:36 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-13 23:58:36 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-13 23:58:36 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-13 23:58:36 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-13 23:58:36 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-13 23:58:36 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-14 02:03:23 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-14 02:03:23 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-14 02:03:23 +0000] [7] [INFO] Using worker: threads
+[2019-09-14 02:03:23 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-14 02:03:23 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-14 02:03:23 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-14 02:03:23 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-14 02:03:23 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-14 02:03:23 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-14 02:03:23 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-14 02:03:23 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-14 03:15:49 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:17)
+[2019-09-14 03:15:49 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:21)
+[2019-09-14 03:15:49 +0000] [17] [INFO] Worker exiting (pid: 17)
+[2019-09-14 03:15:49 +0000] [21] [INFO] Worker exiting (pid: 21)
+[2019-09-14 03:15:49 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:27)
+[2019-09-14 03:15:49 +0000] [27] [INFO] Worker exiting (pid: 27)
+[2019-09-14 03:15:49 +0000] [3093] [INFO] Booting worker with pid: 3093
+[2019-09-14 03:15:49 +0000] [3095] [INFO] Booting worker with pid: 3095
+[2019-09-14 03:15:49 +0000] [3097] [INFO] Booting worker with pid: 3097
+[2019-09-14 03:50:41 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:3093)
+[2019-09-14 03:50:41 +0000] [3093] [INFO] Worker exiting (pid: 3093)
+[2019-09-14 03:50:42 +0000] [4306] [INFO] Booting worker with pid: 4306
+[2019-09-14 04:29:24 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-14 04:29:24 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:3095)
+[2019-09-14 04:29:24 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-14 04:29:24 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:28)
+[2019-09-14 04:29:24 +0000] [3095] [INFO] Worker exiting (pid: 3095)
+[2019-09-14 04:29:24 +0000] [28] [INFO] Worker exiting (pid: 28)
+[2019-09-14 04:29:24 +0000] [5130] [INFO] Booting worker with pid: 5130
+[2019-09-14 04:29:24 +0000] [5132] [INFO] Booting worker with pid: 5132
+[2019-09-14 04:29:24 +0000] [5134] [INFO] Booting worker with pid: 5134
+[2019-09-14 05:16:45 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:5130)
+[2019-09-14 05:16:45 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:5132)
+[2019-09-14 05:16:45 +0000] [5130] [INFO] Worker exiting (pid: 5130)
+[2019-09-14 05:16:45 +0000] [5132] [INFO] Worker exiting (pid: 5132)
+[2019-09-14 05:16:46 +0000] [6061] [INFO] Booting worker with pid: 6061
+[2019-09-14 05:16:46 +0000] [6062] [INFO] Booting worker with pid: 6062
+[2019-09-14 07:36:45 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:25)
+[2019-09-14 07:36:45 +0000] [25] [INFO] Worker exiting (pid: 25)
+[2019-09-14 07:36:46 +0000] [8323] [INFO] Booting worker with pid: 8323
+[2019-09-14 07:53:18 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-14 07:53:18 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-14 07:53:18 +0000] [7] [INFO] Using worker: threads
+[2019-09-14 07:53:18 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-14 07:53:18 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-14 07:53:18 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-14 07:53:18 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-14 07:53:18 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-14 07:53:18 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-14 07:53:18 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-14 07:53:18 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-14 09:39:52 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:17)
+[2019-09-14 09:39:53 +0000] [17] [INFO] Worker exiting (pid: 17)
+[2019-09-14 09:39:53 +0000] [2297] [INFO] Booting worker with pid: 2297
+[2019-09-14 12:43:12 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:19)
+[2019-09-14 12:43:12 +0000] [19] [INFO] Worker exiting (pid: 19)
+[2019-09-14 12:43:13 +0000] [4680] [INFO] Booting worker with pid: 4680
+[2019-09-14 23:45:23 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-14 23:45:23 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-14 23:45:23 +0000] [6] [INFO] Using worker: threads
+[2019-09-14 23:45:23 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-14 23:45:24 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-14 23:45:24 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-14 23:45:24 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-14 23:45:24 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-14 23:45:24 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-14 23:45:24 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-14 23:45:24 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-15 02:16:58 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:16)
+[2019-09-15 02:16:58 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2019-09-15 02:16:59 +0000] [8542] [INFO] Booting worker with pid: 8542
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:20)
+[2019-09-15 02:46:33 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:24)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:25)
+[2019-09-15 02:46:33 +0000] [20] [INFO] Worker exiting (pid: 20)
+[2019-09-15 02:46:33 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-15 02:46:33 +0000] [24] [INFO] Worker exiting (pid: 24)
+[2019-09-15 02:46:33 +0000] [25] [INFO] Worker exiting (pid: 25)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-15 02:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:8542)
+[2019-09-15 02:46:33 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-15 02:46:33 +0000] [8542] [INFO] Worker exiting (pid: 8542)
+[2019-09-15 02:46:33 +0000] [8587] [INFO] Booting worker with pid: 8587
+[2019-09-15 02:46:33 +0000] [8594] [INFO] Booting worker with pid: 8594
+[2019-09-15 02:46:34 +0000] [8596] [INFO] Booting worker with pid: 8596
+[2019-09-15 02:46:34 +0000] [8598] [INFO] Booting worker with pid: 8598
+[2019-09-15 02:46:34 +0000] [8600] [INFO] Booting worker with pid: 8600
+[2019-09-15 02:46:34 +0000] [8602] [INFO] Booting worker with pid: 8602
+[2019-09-15 02:46:34 +0000] [8605] [INFO] Booting worker with pid: 8605
+[2019-09-15 03:22:37 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:8594)
+[2019-09-15 03:22:37 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:23)
+[2019-09-15 03:22:37 +0000] [8594] [INFO] Worker exiting (pid: 8594)
+[2019-09-15 03:22:37 +0000] [23] [INFO] Worker exiting (pid: 23)
+[2019-09-15 03:22:37 +0000] [10417] [INFO] Booting worker with pid: 10417
+[2019-09-15 03:22:37 +0000] [10419] [INFO] Booting worker with pid: 10419
+[2019-09-15 03:47:02 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-15 03:47:02 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-15 03:47:02 +0000] [6] [INFO] Using worker: threads
+[2019-09-15 03:47:02 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-15 03:47:02 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-15 03:47:03 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-15 03:47:03 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-15 03:47:03 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-15 03:47:03 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-15 03:47:03 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-15 03:47:03 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-15 04:54:27 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:16)
+[2019-09-15 04:54:27 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2019-09-15 04:54:27 +0000] [2576] [INFO] Booting worker with pid: 2576
+[2019-09-15 05:48:35 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:2576)
+[2019-09-15 05:48:35 +0000] [2576] [INFO] Worker exiting (pid: 2576)
+[2019-09-15 05:48:35 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-15 05:48:35 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-15 05:48:35 +0000] [2647] [INFO] Booting worker with pid: 2647
+[2019-09-15 05:48:35 +0000] [2649] [INFO] Booting worker with pid: 2649
+[2019-09-15 06:46:33 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:24)
+[2019-09-15 06:46:33 +0000] [24] [INFO] Worker exiting (pid: 24)
+[2019-09-15 06:46:33 +0000] [2695] [INFO] Booting worker with pid: 2695
+[2019-09-15 08:54:28 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-15 08:54:28 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-15 08:54:28 +0000] [9671] [INFO] Booting worker with pid: 9671
+[2019-09-15 09:49:21 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-15 09:49:21 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-15 09:49:21 +0000] [9740] [INFO] Booting worker with pid: 9740
+[2019-09-15 13:23:54 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:9740)
+[2019-09-15 13:23:54 +0000] [9740] [INFO] Worker exiting (pid: 9740)
+[2019-09-15 13:23:54 +0000] [20336] [INFO] Booting worker with pid: 20336
+[2019-09-15 23:18:07 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-15 23:18:07 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-15 23:18:07 +0000] [7] [INFO] Using worker: threads
+[2019-09-15 23:18:07 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-15 23:18:07 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-15 23:18:07 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-15 23:18:08 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-15 23:18:08 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-15 23:18:08 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-15 23:18:08 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-15 23:18:08 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-15 23:34:35 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:17)
+[2019-09-15 23:34:35 +0000] [17] [INFO] Worker exiting (pid: 17)
+[2019-09-15 23:34:35 +0000] [205] [INFO] Booting worker with pid: 205
+[2019-09-16 01:32:51 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-16 01:32:51 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-16 01:32:51 +0000] [7] [INFO] Using worker: threads
+[2019-09-16 01:32:51 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-16 01:32:51 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-16 01:32:51 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-16 01:32:51 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-16 01:32:51 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-16 01:32:51 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-16 01:32:51 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-16 01:32:51 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-16 01:34:02 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-16 01:34:02 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-16 01:34:02 +0000] [7] [INFO] Using worker: threads
+[2019-09-16 01:34:02 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-16 01:34:02 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-16 01:34:03 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-16 01:34:03 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-16 01:34:03 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-16 01:34:03 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-16 01:34:03 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-16 01:34:03 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-16 01:44:38 +0000] [8] [INFO] Starting gunicorn 19.9.0
+[2019-09-16 01:44:38 +0000] [8] [INFO] Listening at: http://0.0.0.0:8080 (8)
+[2019-09-16 01:44:38 +0000] [8] [INFO] Using worker: threads
+[2019-09-16 01:44:38 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-16 01:44:38 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-16 01:44:38 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-16 01:44:38 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-16 01:44:38 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-16 01:44:38 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-16 01:44:38 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-16 01:44:38 +0000] [32] [INFO] Booting worker with pid: 32
+[2019-09-16 02:27:17 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:32)
+[2019-09-16 02:27:17 +0000] [32] [INFO] Worker exiting (pid: 32)
+[2019-09-16 02:27:18 +0000] [1215] [INFO] Booting worker with pid: 1215
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:24)
+[2019-09-16 03:20:55 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-16 03:20:55 +0000] [24] [INFO] Worker exiting (pid: 24)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:27)
+[2019-09-16 03:20:55 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:30)
+[2019-09-16 03:20:55 +0000] [27] [INFO] Worker exiting (pid: 27)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:1215)
+[2019-09-16 03:20:55 +0000] [30] [INFO] Worker exiting (pid: 30)
+[2019-09-16 03:20:55 +0000] [1215] [INFO] Worker exiting (pid: 1215)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-16 03:20:55 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:20)
+[2019-09-16 03:20:55 +0000] [20] [INFO] Worker exiting (pid: 20)
+[2019-09-16 03:20:55 +0000] [3974] [INFO] Booting worker with pid: 3974
+[2019-09-16 03:20:55 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-16 03:20:55 +0000] [3979] [INFO] Booting worker with pid: 3979
+[2019-09-16 03:20:55 +0000] [3984] [INFO] Booting worker with pid: 3984
+[2019-09-16 03:20:56 +0000] [3988] [INFO] Booting worker with pid: 3988
+[2019-09-16 03:20:56 +0000] [3990] [INFO] Booting worker with pid: 3990
+[2019-09-16 03:20:56 +0000] [3991] [INFO] Booting worker with pid: 3991
+[2019-09-16 03:20:56 +0000] [3993] [INFO] Booting worker with pid: 3993
+[2019-09-16 03:20:56 +0000] [3994] [INFO] Booting worker with pid: 3994
+[2019-09-16 03:57:22 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3988)
+[2019-09-16 03:57:22 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3991)
+[2019-09-16 03:57:22 +0000] [3988] [INFO] Worker exiting (pid: 3988)
+[2019-09-16 03:57:22 +0000] [3991] [INFO] Worker exiting (pid: 3991)
+[2019-09-16 03:57:23 +0000] [5476] [INFO] Booting worker with pid: 5476
+[2019-09-16 03:57:23 +0000] [5477] [INFO] Booting worker with pid: 5477
+[2019-09-16 05:07:36 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3974)
+[2019-09-16 05:07:36 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3979)
+[2019-09-16 05:07:36 +0000] [3974] [INFO] Worker exiting (pid: 3974)
+[2019-09-16 05:07:36 +0000] [3979] [INFO] Worker exiting (pid: 3979)
+[2019-09-16 05:07:37 +0000] [9211] [INFO] Booting worker with pid: 9211
+[2019-09-16 05:07:37 +0000] [9213] [INFO] Booting worker with pid: 9213
+[2019-09-16 05:25:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:5476)
+[2019-09-16 05:25:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:5477)
+[2019-09-16 05:25:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3984)
+[2019-09-16 05:25:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3990)
+[2019-09-16 05:25:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3994)
+[2019-09-16 05:25:52 +0000] [5476] [INFO] Worker exiting (pid: 5476)
+[2019-09-16 05:25:52 +0000] [3990] [INFO] Worker exiting (pid: 3990)
+[2019-09-16 05:25:52 +0000] [3984] [INFO] Worker exiting (pid: 3984)
+[2019-09-16 05:25:52 +0000] [5477] [INFO] Worker exiting (pid: 5477)
+[2019-09-16 05:25:52 +0000] [3994] [INFO] Worker exiting (pid: 3994)
+[2019-09-16 05:25:53 +0000] [9516] [INFO] Booting worker with pid: 9516
+[2019-09-16 05:25:53 +0000] [9518] [INFO] Booting worker with pid: 9518
+[2019-09-16 05:25:53 +0000] [9520] [INFO] Booting worker with pid: 9520
+[2019-09-16 05:25:53 +0000] [9522] [INFO] Booting worker with pid: 9522
+[2019-09-16 05:25:53 +0000] [9524] [INFO] Booting worker with pid: 9524
+[2019-09-16 06:51:52 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:3993)
+[2019-09-16 06:51:52 +0000] [3993] [INFO] Worker exiting (pid: 3993)
+[2019-09-16 06:51:53 +0000] [10235] [INFO] Booting worker with pid: 10235
+[2019-09-16 07:31:28 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:9520)
+[2019-09-16 07:31:28 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:9524)
+[2019-09-16 07:31:28 +0000] [9520] [INFO] Worker exiting (pid: 9520)
+[2019-09-16 07:31:29 +0000] [9524] [INFO] Worker exiting (pid: 9524)
+[2019-09-16 07:31:29 +0000] [11391] [INFO] Booting worker with pid: 11391
+[2019-09-16 07:31:29 +0000] [11393] [INFO] Booting worker with pid: 11393
+[2019-09-16 11:03:26 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:11393)
+[2019-09-16 11:03:26 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:9516)
+[2019-09-16 11:03:26 +0000] [11393] [INFO] Worker exiting (pid: 11393)
+[2019-09-16 11:03:26 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:9522)
+[2019-09-16 11:03:26 +0000] [9522] [INFO] Worker exiting (pid: 9522)
+[2019-09-16 11:03:26 +0000] [9516] [INFO] Worker exiting (pid: 9516)
+[2019-09-16 11:03:26 +0000] [12835] [INFO] Booting worker with pid: 12835
+[2019-09-16 11:03:26 +0000] [12836] [INFO] Booting worker with pid: 12836
+[2019-09-16 11:03:26 +0000] [12838] [INFO] Booting worker with pid: 12838
+[2019-09-16 12:10:25 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:12835)
+[2019-09-16 12:10:26 +0000] [12835] [INFO] Worker exiting (pid: 12835)
+[2019-09-16 12:10:26 +0000] [16179] [INFO] Booting worker with pid: 16179
+[2019-09-16 13:24:38 +0000] [8] [CRITICAL] WORKER TIMEOUT (pid:9213)
+[2019-09-16 13:24:38 +0000] [9213] [INFO] Worker exiting (pid: 9213)
+[2019-09-16 13:24:38 +0000] [19418] [INFO] Booting worker with pid: 19418
+[2019-09-16 14:38:44 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-16 14:38:44 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-16 14:38:44 +0000] [6] [INFO] Using worker: threads
+[2019-09-16 14:38:44 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-16 14:38:44 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-16 14:38:44 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-16 14:38:44 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-16 14:38:44 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-16 14:38:44 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-16 14:38:44 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-16 14:38:44 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-16 23:50:33 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-16 23:50:33 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-16 23:50:33 +0000] [6] [INFO] Using worker: threads
+[2019-09-16 23:50:33 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-16 23:50:33 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-16 23:50:33 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-16 23:50:33 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-16 23:50:33 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-16 23:50:33 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-16 23:50:33 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-16 23:50:33 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-17 02:00:00 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 02:00:00 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 02:00:00 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 02:00:00 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 02:00:00 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 02:00:00 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-17 02:00:00 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-17 02:00:00 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 02:00:00 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-17 02:00:00 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 02:00:00 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-17 02:00:49 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 02:00:49 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 02:00:49 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 02:00:49 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 02:00:49 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 02:00:49 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-17 02:00:49 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 02:00:50 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-17 02:00:50 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 02:00:50 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 02:00:50 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-17 07:25:45 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 07:25:45 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 07:25:45 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 07:25:45 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 07:25:45 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 07:25:45 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-17 07:25:45 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 07:25:45 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-17 07:25:45 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 07:25:45 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 07:25:45 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-17 07:57:04 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 07:57:04 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 07:57:04 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 07:57:04 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 07:57:04 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 07:57:04 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-17 07:57:04 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-17 07:57:04 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-17 07:57:04 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 07:57:04 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 07:57:04 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-17 08:11:41 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 08:11:41 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-17 08:11:41 +0000] [7] [INFO] Using worker: threads
+[2019-09-17 08:11:41 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-17 08:11:41 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 08:11:41 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-17 08:11:41 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-17 08:11:41 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 08:11:41 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 08:11:41 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-17 08:11:41 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-17 08:26:06 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 08:26:06 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-17 08:26:06 +0000] [7] [INFO] Using worker: threads
+[2019-09-17 08:26:06 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-17 08:26:06 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-17 08:26:06 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-17 08:26:06 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-17 08:26:06 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 08:26:06 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-17 08:26:06 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-17 08:26:06 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-17 08:33:48 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 08:33:48 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 08:33:48 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 08:33:48 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 08:33:49 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 08:33:49 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-17 08:33:49 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 08:33:49 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-17 08:33:49 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 08:33:49 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-17 08:33:49 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-17 09:32:22 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 09:32:22 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-17 09:32:22 +0000] [7] [INFO] Using worker: threads
+[2019-09-17 09:32:22 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-17 09:32:23 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-17 09:32:23 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-17 09:32:23 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 09:32:23 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-17 09:32:23 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-17 09:32:23 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-17 09:32:23 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-17 10:44:18 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:19)
+[2019-09-17 10:44:18 +0000] [19] [INFO] Worker exiting (pid: 19)
+[2019-09-17 10:44:19 +0000] [2702] [INFO] Booting worker with pid: 2702
+[2019-09-17 12:57:10 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:17)
+[2019-09-17 12:57:10 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:21)
+[2019-09-17 12:57:10 +0000] [17] [INFO] Worker exiting (pid: 17)
+[2019-09-17 12:57:10 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:25)
+[2019-09-17 12:57:10 +0000] [21] [INFO] Worker exiting (pid: 21)
+[2019-09-17 12:57:10 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-17 12:57:10 +0000] [25] [INFO] Worker exiting (pid: 25)
+[2019-09-17 12:57:10 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:29)
+[2019-09-17 12:57:10 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-17 12:57:10 +0000] [29] [INFO] Worker exiting (pid: 29)
+[2019-09-17 12:57:10 +0000] [10687] [INFO] Booting worker with pid: 10687
+[2019-09-17 12:57:10 +0000] [10689] [INFO] Booting worker with pid: 10689
+[2019-09-17 12:57:10 +0000] [10691] [INFO] Booting worker with pid: 10691
+[2019-09-17 12:57:10 +0000] [10693] [INFO] Booting worker with pid: 10693
+[2019-09-17 12:57:10 +0000] [10695] [INFO] Booting worker with pid: 10695
+[2019-09-17 13:11:31 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:10689)
+[2019-09-17 13:11:31 +0000] [10689] [INFO] Worker exiting (pid: 10689)
+[2019-09-17 13:11:32 +0000] [10761] [INFO] Booting worker with pid: 10761
+[2019-09-17 14:14:03 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:2702)
+[2019-09-17 14:14:03 +0000] [2702] [INFO] Worker exiting (pid: 2702)
+[2019-09-17 14:14:04 +0000] [13702] [INFO] Booting worker with pid: 13702
+[2019-09-17 14:53:36 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:10695)
+[2019-09-17 14:53:36 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-17 14:53:36 +0000] [10695] [INFO] Worker exiting (pid: 10695)
+[2019-09-17 14:53:36 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:30)
+[2019-09-17 14:53:36 +0000] [30] [INFO] Worker exiting (pid: 30)
+[2019-09-17 14:53:36 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-17 14:53:37 +0000] [15683] [INFO] Booting worker with pid: 15683
+[2019-09-17 14:53:37 +0000] [15685] [INFO] Booting worker with pid: 15685
+[2019-09-17 14:53:37 +0000] [15686] [INFO] Booting worker with pid: 15686
+[2019-09-17 23:18:44 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-17 23:18:44 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-17 23:18:44 +0000] [6] [INFO] Using worker: threads
+[2019-09-17 23:18:44 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-17 23:18:44 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-17 23:18:44 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-17 23:18:44 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-17 23:18:44 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-17 23:18:44 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-17 23:18:44 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-17 23:18:44 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-17 23:37:30 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:16)
+[2019-09-17 23:37:30 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2019-09-17 23:37:30 +0000] [445] [INFO] Booting worker with pid: 445
+[2019-09-18 00:59:53 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-18 00:59:53 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-18 00:59:53 +0000] [6] [INFO] Using worker: threads
+[2019-09-18 00:59:53 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-18 00:59:53 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-18 00:59:53 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-18 00:59:53 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-18 00:59:53 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-18 00:59:53 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-18 00:59:53 +0000] [28] [INFO] Booting worker with pid: 28
+[2019-09-18 00:59:53 +0000] [30] [INFO] Booting worker with pid: 30
+[2019-09-18 01:27:45 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-18 01:27:45 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-18 01:27:45 +0000] [6] [INFO] Using worker: threads
+[2019-09-18 01:27:45 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-18 01:27:45 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-18 01:27:45 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-18 01:27:45 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-18 01:27:45 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-18 01:27:45 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-18 01:27:45 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-18 01:27:45 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-18 02:03:15 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:20)
+[2019-09-18 02:03:15 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:22)
+[2019-09-18 02:03:15 +0000] [20] [INFO] Worker exiting (pid: 20)
+[2019-09-18 02:03:15 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:23)
+[2019-09-18 02:03:15 +0000] [23] [INFO] Worker exiting (pid: 23)
+[2019-09-18 02:03:15 +0000] [22] [INFO] Worker exiting (pid: 22)
+[2019-09-18 02:03:16 +0000] [1122] [INFO] Booting worker with pid: 1122
+[2019-09-18 02:03:16 +0000] [1124] [INFO] Booting worker with pid: 1124
+[2019-09-18 02:03:16 +0000] [1126] [INFO] Booting worker with pid: 1126
+[2019-09-18 03:25:11 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:16)
+[2019-09-18 03:25:11 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:1126)
+[2019-09-18 03:25:11 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2019-09-18 03:25:11 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:26)
+[2019-09-18 03:25:11 +0000] [1126] [INFO] Worker exiting (pid: 1126)
+[2019-09-18 03:25:11 +0000] [26] [INFO] Worker exiting (pid: 26)
+[2019-09-18 03:25:12 +0000] [1873] [INFO] Booting worker with pid: 1873
+[2019-09-18 03:25:12 +0000] [1875] [INFO] Booting worker with pid: 1875
+[2019-09-18 03:25:12 +0000] [1877] [INFO] Booting worker with pid: 1877
+[2019-09-18 04:09:10 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:1122)
+[2019-09-18 04:09:10 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:1124)
+[2019-09-18 04:09:10 +0000] [1122] [INFO] Worker exiting (pid: 1122)
+[2019-09-18 04:09:10 +0000] [1124] [INFO] Worker exiting (pid: 1124)
+[2019-09-18 04:09:10 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:27)
+[2019-09-18 04:09:10 +0000] [27] [INFO] Worker exiting (pid: 27)
+[2019-09-18 04:09:10 +0000] [2243] [INFO] Booting worker with pid: 2243
+[2019-09-18 04:09:10 +0000] [2245] [INFO] Booting worker with pid: 2245
+[2019-09-18 04:09:10 +0000] [2246] [INFO] Booting worker with pid: 2246
+[2019-09-18 08:19:28 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:2246)
+[2019-09-18 08:19:28 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:1877)
+[2019-09-18 08:19:28 +0000] [1877] [INFO] Worker exiting (pid: 1877)
+[2019-09-18 08:19:28 +0000] [2246] [INFO] Worker exiting (pid: 2246)
+[2019-09-18 08:19:29 +0000] [11403] [INFO] Booting worker with pid: 11403
+[2019-09-18 08:19:29 +0000] [11405] [INFO] Booting worker with pid: 11405
+[2019-09-18 12:23:30 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:11405)
+[2019-09-18 12:23:30 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:18)
+[2019-09-18 12:23:30 +0000] [18] [INFO] Worker exiting (pid: 18)
+[2019-09-18 12:23:30 +0000] [11405] [INFO] Worker exiting (pid: 11405)
+[2019-09-18 12:23:31 +0000] [13450] [INFO] Booting worker with pid: 13450
+[2019-09-18 12:23:31 +0000] [13452] [INFO] Booting worker with pid: 13452
+[2019-09-19 00:56:07 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-19 00:56:07 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-19 00:56:07 +0000] [6] [INFO] Using worker: threads
+[2019-09-19 00:56:07 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-19 00:56:07 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-19 00:56:07 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-19 00:56:07 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-19 00:56:07 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-19 00:56:07 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-19 00:56:07 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-19 00:56:07 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-19 01:46:59 +0000] [7] [INFO] Starting gunicorn 19.9.0
+[2019-09-19 01:46:59 +0000] [7] [INFO] Listening at: http://0.0.0.0:8080 (7)
+[2019-09-19 01:46:59 +0000] [7] [INFO] Using worker: threads
+[2019-09-19 01:46:59 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-19 01:46:59 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-19 01:46:59 +0000] [19] [INFO] Booting worker with pid: 19
+[2019-09-19 01:46:59 +0000] [22] [INFO] Booting worker with pid: 22
+[2019-09-19 01:46:59 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-19 01:46:59 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-19 01:46:59 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-19 01:46:59 +0000] [31] [INFO] Booting worker with pid: 31
+[2019-09-19 02:43:21 +0000] [7] [CRITICAL] WORKER TIMEOUT (pid:17)
+[2019-09-19 02:43:21 +0000] [17] [INFO] Worker exiting (pid: 17)
+[2019-09-19 02:43:22 +0000] [2527] [INFO] Booting worker with pid: 2527
+[2019-09-19 06:04:19 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-19 06:04:19 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-19 06:04:19 +0000] [6] [INFO] Using worker: threads
+[2019-09-19 06:04:19 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-19 06:04:19 +0000] [18] [INFO] Booting worker with pid: 18
+[2019-09-19 06:04:20 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-19 06:04:20 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-19 06:04:20 +0000] [23] [INFO] Booting worker with pid: 23
+[2019-09-19 06:04:20 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-09-19 06:04:20 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-19 06:04:20 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-21 02:01:09 +0000] [6] [INFO] Starting gunicorn 19.9.0
+[2019-09-21 02:01:09 +0000] [6] [INFO] Listening at: http://0.0.0.0:8080 (6)
+[2019-09-21 02:01:09 +0000] [6] [INFO] Using worker: threads
+[2019-09-21 02:01:09 +0000] [16] [INFO] Booting worker with pid: 16
+[2019-09-21 02:01:09 +0000] [17] [INFO] Booting worker with pid: 17
+[2019-09-21 02:01:09 +0000] [21] [INFO] Booting worker with pid: 21
+[2019-09-21 02:01:09 +0000] [20] [INFO] Booting worker with pid: 20
+[2019-09-21 02:01:09 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-09-21 02:01:09 +0000] [26] [INFO] Booting worker with pid: 26
+[2019-09-21 02:01:09 +0000] [27] [INFO] Booting worker with pid: 27
+[2019-09-21 02:01:09 +0000] [29] [INFO] Booting worker with pid: 29
+[2019-09-21 02:18:40 +0000] [6] [CRITICAL] WORKER TIMEOUT (pid:16)
+[2019-09-21 02:18:39 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2019-09-21 02:18:40 +0000] [444] [INFO] Booting worker with pid: 444

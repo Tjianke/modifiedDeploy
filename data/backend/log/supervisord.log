@@ -1,0 +1,438 @@
+2019-09-11 22:28:08,815 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-11 22:28:08,823 INFO RPC interface 'supervisor' initialized
+2019-09-11 22:28:08,824 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-11 22:28:08,825 INFO supervisord started with pid 1
+2019-09-11 22:28:09,840 INFO spawned: 'dramatiq' with pid 155
+2019-09-11 22:28:09,852 INFO spawned: 'gunicorn' with pid 156
+2019-09-11 22:28:09,869 INFO spawned: 'nginx' with pid 157
+2019-09-11 22:28:14,897 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-11 22:28:14,898 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-11 22:28:14,900 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-11 22:32:49,635 WARN received SIGTERM indicating exit request
+2019-09-11 22:32:49,636 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-11 22:32:49,759 INFO stopped: nginx (exit status 0)
+2019-09-11 22:32:50,997 INFO stopped: gunicorn (exit status 0)
+2019-09-11 22:32:52,849 INFO waiting for dramatiq to die
+2019-09-11 22:32:53,967 INFO stopped: dramatiq (exit status 0)
+2019-09-11 22:32:59,294 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-11 22:32:59,302 INFO RPC interface 'supervisor' initialized
+2019-09-11 22:32:59,302 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-11 22:32:59,303 INFO supervisord started with pid 1
+2019-09-11 22:33:00,314 INFO spawned: 'dramatiq' with pid 104
+2019-09-11 22:33:00,323 INFO spawned: 'gunicorn' with pid 105
+2019-09-11 22:33:00,330 INFO spawned: 'nginx' with pid 106
+2019-09-11 22:33:05,700 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-11 22:33:05,702 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-11 22:33:05,703 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 00:05:02,015 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-13 00:05:02,030 INFO RPC interface 'supervisor' initialized
+2019-09-13 00:05:02,031 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-13 00:05:02,031 INFO supervisord started with pid 1
+2019-09-13 00:05:03,039 INFO spawned: 'dramatiq' with pid 125
+2019-09-13 00:05:03,046 INFO spawned: 'gunicorn' with pid 126
+2019-09-13 00:05:03,071 INFO spawned: 'nginx' with pid 127
+2019-09-13 00:05:08,854 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 00:05:08,855 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 00:05:08,856 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 23:58:50,968 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-13 23:58:50,980 INFO RPC interface 'supervisor' initialized
+2019-09-13 23:58:50,981 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-13 23:58:50,981 INFO supervisord started with pid 1
+2019-09-13 23:58:51,997 INFO spawned: 'dramatiq' with pid 125
+2019-09-13 23:58:52,007 INFO spawned: 'gunicorn' with pid 126
+2019-09-13 23:58:52,025 INFO spawned: 'nginx' with pid 127
+2019-09-13 23:58:57,056 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 23:58:57,057 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-13 23:58:57,058 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 00:56:31,024 WARN received SIGTERM indicating exit request
+2019-09-14 00:56:31,027 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-14 00:56:31,120 INFO stopped: nginx (exit status 0)
+2019-09-14 00:56:32,363 INFO stopped: gunicorn (exit status 0)
+2019-09-14 00:56:34,080 INFO waiting for dramatiq to die
+2019-09-14 00:56:37,136 INFO waiting for dramatiq to die
+2019-09-14 00:56:37,797 WARN killing 'dramatiq' (125) with SIGKILL
+2019-09-14 00:56:37,801 INFO stopped: dramatiq (terminated by SIGKILL)
+2019-09-14 00:56:37,804 INFO reaped unknown pid 137
+2019-09-14 00:56:37,805 INFO reaped unknown pid 138
+2019-09-14 00:56:37,805 INFO reaped unknown pid 139
+2019-09-14 00:56:37,806 INFO reaped unknown pid 140
+2019-09-14 02:03:39,768 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-14 02:03:39,781 INFO RPC interface 'supervisor' initialized
+2019-09-14 02:03:39,782 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-14 02:03:39,782 INFO supervisord started with pid 1
+2019-09-14 02:03:40,795 INFO spawned: 'dramatiq' with pid 123
+2019-09-14 02:03:40,805 INFO spawned: 'gunicorn' with pid 124
+2019-09-14 02:03:40,829 INFO spawned: 'nginx' with pid 125
+2019-09-14 02:03:46,772 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 02:03:46,773 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 02:03:46,775 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 07:49:13,705 WARN received SIGTERM indicating exit request
+2019-09-14 07:49:13,707 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-14 07:49:13,820 INFO stopped: nginx (exit status 0)
+2019-09-14 07:49:15,063 INFO stopped: gunicorn (exit status 0)
+2019-09-14 07:49:16,759 INFO waiting for dramatiq to die
+2019-09-14 07:49:17,503 INFO stopped: dramatiq (exit status 0)
+2019-09-14 07:53:36,572 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-14 07:53:36,580 INFO RPC interface 'supervisor' initialized
+2019-09-14 07:53:36,581 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-14 07:53:36,581 INFO supervisord started with pid 1
+2019-09-14 07:53:37,595 INFO spawned: 'dramatiq' with pid 123
+2019-09-14 07:53:37,604 INFO spawned: 'gunicorn' with pid 124
+2019-09-14 07:53:37,623 INFO spawned: 'nginx' with pid 125
+2019-09-14 07:53:42,695 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 07:53:42,697 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 07:53:42,699 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 23:45:42,612 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-14 23:45:42,624 INFO RPC interface 'supervisor' initialized
+2019-09-14 23:45:42,624 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-14 23:45:42,625 INFO supervisord started with pid 1
+2019-09-14 23:45:43,632 INFO spawned: 'dramatiq' with pid 124
+2019-09-14 23:45:43,660 INFO spawned: 'gunicorn' with pid 125
+2019-09-14 23:45:43,670 INFO spawned: 'nginx' with pid 126
+2019-09-14 23:45:48,946 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 23:45:48,948 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-14 23:45:48,949 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 03:47:02,717 WARN received SIGTERM indicating exit request
+2019-09-15 03:47:02,719 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-15 03:47:02,814 INFO stopped: nginx (exit status 0)
+2019-09-15 03:47:04,054 INFO stopped: gunicorn (exit status 0)
+2019-09-15 03:47:06,693 INFO waiting for dramatiq to die
+2019-09-15 03:47:06,712 INFO stopped: dramatiq (exit status 0)
+2019-09-15 03:47:12,407 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-15 03:47:12,416 INFO RPC interface 'supervisor' initialized
+2019-09-15 03:47:12,416 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-15 03:47:12,417 INFO supervisord started with pid 1
+2019-09-15 03:47:13,426 INFO spawned: 'dramatiq' with pid 105
+2019-09-15 03:47:13,436 INFO spawned: 'gunicorn' with pid 106
+2019-09-15 03:47:13,462 INFO spawned: 'nginx' with pid 107
+2019-09-15 03:47:18,658 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 03:47:18,660 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 03:47:18,662 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 23:18:23,784 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-15 23:18:23,796 INFO RPC interface 'supervisor' initialized
+2019-09-15 23:18:23,797 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-15 23:18:23,797 INFO supervisord started with pid 1
+2019-09-15 23:18:24,810 INFO spawned: 'dramatiq' with pid 123
+2019-09-15 23:18:24,819 INFO spawned: 'gunicorn' with pid 124
+2019-09-15 23:18:24,832 INFO spawned: 'nginx' with pid 125
+2019-09-15 23:18:30,462 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 23:18:30,463 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-15 23:18:30,464 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 01:41:21,682 WARN received SIGTERM indicating exit request
+2019-09-16 01:41:21,683 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-16 01:41:21,794 INFO stopped: nginx (exit status 0)
+2019-09-16 01:41:22,636 INFO stopped: gunicorn (exit status 0)
+2019-09-16 01:41:25,371 INFO waiting for dramatiq to die
+2019-09-16 01:41:26,403 INFO stopped: dramatiq (exit status 0)
+2019-09-16 01:44:54,308 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-16 01:44:54,319 INFO RPC interface 'supervisor' initialized
+2019-09-16 01:44:54,319 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-16 01:44:54,320 INFO supervisord started with pid 1
+2019-09-16 01:44:54,869 INFO spawned: 'dramatiq' with pid 126
+2019-09-16 01:44:54,877 INFO spawned: 'gunicorn' with pid 127
+2019-09-16 01:44:54,885 INFO spawned: 'nginx' with pid 128
+2019-09-16 01:44:59,881 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 01:44:59,883 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 01:44:59,885 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 02:30:35,335 WARN received SIGTERM indicating exit request
+2019-09-16 02:30:35,335 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-16 02:30:35,454 INFO stopped: nginx (exit status 0)
+2019-09-16 02:30:36,592 INFO stopped: gunicorn (exit status 0)
+2019-09-16 02:30:38,889 INFO waiting for dramatiq to die
+2019-09-16 02:30:38,900 INFO stopped: dramatiq (exit status 0)
+2019-09-16 02:30:44,382 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-16 02:30:44,390 INFO RPC interface 'supervisor' initialized
+2019-09-16 02:30:44,390 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-16 02:30:44,391 INFO supervisord started with pid 1
+2019-09-16 02:30:45,402 INFO spawned: 'dramatiq' with pid 105
+2019-09-16 02:30:45,408 INFO spawned: 'gunicorn' with pid 106
+2019-09-16 02:30:45,438 INFO spawned: 'nginx' with pid 107
+2019-09-16 02:30:50,802 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 02:30:50,804 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 02:30:50,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 14:39:02,007 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-16 14:39:02,021 INFO RPC interface 'supervisor' initialized
+2019-09-16 14:39:02,022 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-16 14:39:02,022 INFO supervisord started with pid 1
+2019-09-16 14:39:03,035 INFO spawned: 'dramatiq' with pid 125
+2019-09-16 14:39:03,046 INFO spawned: 'gunicorn' with pid 126
+2019-09-16 14:39:03,063 INFO spawned: 'nginx' with pid 127
+2019-09-16 14:39:08,770 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 14:39:08,770 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 14:39:08,771 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 23:50:55,622 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-16 23:50:55,633 INFO RPC interface 'supervisor' initialized
+2019-09-16 23:50:55,634 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-16 23:50:55,634 INFO supervisord started with pid 1
+2019-09-16 23:50:56,620 INFO spawned: 'dramatiq' with pid 130
+2019-09-16 23:50:56,630 INFO spawned: 'gunicorn' with pid 131
+2019-09-16 23:50:56,636 INFO spawned: 'nginx' with pid 132
+2019-09-16 23:51:02,538 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 23:51:02,540 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-16 23:51:02,541 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 01:21:56,316 WARN received SIGTERM indicating exit request
+2019-09-17 01:21:56,317 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 01:21:56,432 INFO stopped: nginx (exit status 0)
+2019-09-17 01:21:57,590 INFO stopped: gunicorn (exit status 0)
+2019-09-17 01:21:59,371 INFO waiting for dramatiq to die
+2019-09-17 01:22:00,322 INFO stopped: dramatiq (exit status 0)
+2019-09-17 01:22:06,160 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 01:22:06,170 INFO RPC interface 'supervisor' initialized
+2019-09-17 01:22:06,171 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 01:22:06,171 INFO supervisord started with pid 1
+2019-09-17 01:22:07,185 INFO spawned: 'dramatiq' with pid 105
+2019-09-17 01:22:07,196 INFO spawned: 'gunicorn' with pid 106
+2019-09-17 01:22:07,223 INFO spawned: 'nginx' with pid 107
+2019-09-17 01:22:12,297 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 01:22:12,299 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 01:22:12,301 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 01:58:44,302 WARN received SIGTERM indicating exit request
+2019-09-17 01:58:44,304 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 01:58:44,408 INFO stopped: nginx (exit status 0)
+2019-09-17 01:58:45,658 INFO stopped: gunicorn (exit status 0)
+2019-09-17 01:58:48,002 INFO stopped: dramatiq (exit status 0)
+2019-09-17 02:00:17,960 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 02:00:17,968 INFO RPC interface 'supervisor' initialized
+2019-09-17 02:00:17,969 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 02:00:17,970 INFO supervisord started with pid 1
+2019-09-17 02:00:18,978 INFO spawned: 'dramatiq' with pid 127
+2019-09-17 02:00:18,989 INFO spawned: 'gunicorn' with pid 128
+2019-09-17 02:00:19,020 INFO spawned: 'nginx' with pid 129
+2019-09-17 02:00:24,083 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:00:24,085 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:00:24,087 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:01:06,137 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 02:01:06,145 INFO RPC interface 'supervisor' initialized
+2019-09-17 02:01:06,145 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 02:01:06,146 INFO supervisord started with pid 1
+2019-09-17 02:01:07,156 INFO spawned: 'dramatiq' with pid 128
+2019-09-17 02:01:07,166 INFO spawned: 'gunicorn' with pid 129
+2019-09-17 02:01:07,173 INFO spawned: 'nginx' with pid 130
+2019-09-17 02:01:12,205 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:01:12,207 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:01:12,209 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 02:31:29,957 WARN received SIGTERM indicating exit request
+2019-09-17 02:31:29,958 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 02:31:30,064 INFO stopped: nginx (exit status 0)
+2019-09-17 02:31:31,203 INFO stopped: gunicorn (exit status 0)
+2019-09-17 02:31:33,184 INFO stopped: dramatiq (exit status 0)
+2019-09-17 07:26:04,260 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 07:26:04,273 INFO RPC interface 'supervisor' initialized
+2019-09-17 07:26:04,274 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 07:26:04,274 INFO supervisord started with pid 1
+2019-09-17 07:26:05,286 INFO spawned: 'dramatiq' with pid 123
+2019-09-17 07:26:05,296 INFO spawned: 'gunicorn' with pid 124
+2019-09-17 07:26:05,312 INFO spawned: 'nginx' with pid 125
+2019-09-17 07:26:10,360 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 07:26:10,362 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 07:26:10,364 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 07:48:03,973 WARN received SIGTERM indicating exit request
+2019-09-17 07:48:03,973 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 07:48:04,082 INFO stopped: nginx (exit status 0)
+2019-09-17 07:48:05,222 INFO stopped: gunicorn (exit status 0)
+2019-09-17 07:48:07,958 INFO waiting for dramatiq to die
+2019-09-17 07:48:07,977 INFO stopped: dramatiq (exit status 0)
+2019-09-17 07:57:21,583 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 07:57:21,590 INFO RPC interface 'supervisor' initialized
+2019-09-17 07:57:21,591 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 07:57:21,591 INFO supervisord started with pid 1
+2019-09-17 07:57:22,606 INFO spawned: 'dramatiq' with pid 132
+2019-09-17 07:57:22,617 INFO spawned: 'gunicorn' with pid 133
+2019-09-17 07:57:22,639 INFO spawned: 'nginx' with pid 134
+2019-09-17 07:57:28,357 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 07:57:28,359 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 07:57:28,361 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:10:01,182 WARN received SIGTERM indicating exit request
+2019-09-17 08:10:01,183 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 08:10:01,299 INFO stopped: nginx (exit status 0)
+2019-09-17 08:10:02,546 INFO stopped: gunicorn (exit status 0)
+2019-09-17 08:10:04,301 INFO waiting for dramatiq to die
+2019-09-17 08:10:05,324 INFO stopped: dramatiq (exit status 0)
+2019-09-17 08:11:58,474 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 08:11:58,484 INFO RPC interface 'supervisor' initialized
+2019-09-17 08:11:58,485 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 08:11:58,486 INFO supervisord started with pid 1
+2019-09-17 08:11:59,463 INFO spawned: 'dramatiq' with pid 124
+2019-09-17 08:11:59,473 INFO spawned: 'gunicorn' with pid 125
+2019-09-17 08:11:59,488 INFO spawned: 'nginx' with pid 126
+2019-09-17 08:12:04,781 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:12:04,782 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:12:04,784 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:25:31,036 WARN received SIGTERM indicating exit request
+2019-09-17 08:25:31,037 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 08:25:31,150 INFO stopped: nginx (exit status 0)
+2019-09-17 08:25:32,390 INFO stopped: gunicorn (exit status 0)
+2019-09-17 08:25:34,687 INFO waiting for dramatiq to die
+2019-09-17 08:25:34,707 INFO stopped: dramatiq (exit status 0)
+2019-09-17 08:26:28,501 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 08:26:28,509 INFO RPC interface 'supervisor' initialized
+2019-09-17 08:26:28,509 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 08:26:28,510 INFO supervisord started with pid 1
+2019-09-17 08:26:29,518 INFO spawned: 'dramatiq' with pid 137
+2019-09-17 08:26:29,541 INFO spawned: 'gunicorn' with pid 138
+2019-09-17 08:26:29,566 INFO spawned: 'nginx' with pid 139
+2019-09-17 08:26:35,414 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:26:35,415 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:26:35,416 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:29:51,801 WARN received SIGTERM indicating exit request
+2019-09-17 08:29:51,802 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 08:29:51,901 INFO stopped: nginx (exit status 0)
+2019-09-17 08:29:53,153 INFO stopped: gunicorn (exit status 0)
+2019-09-17 08:29:55,586 INFO waiting for dramatiq to die
+2019-09-17 08:29:55,602 INFO stopped: dramatiq (exit status 0)
+2019-09-17 08:34:06,484 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 08:34:06,491 INFO RPC interface 'supervisor' initialized
+2019-09-17 08:34:06,492 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 08:34:06,492 INFO supervisord started with pid 1
+2019-09-17 08:34:07,505 INFO spawned: 'dramatiq' with pid 126
+2019-09-17 08:34:07,516 INFO spawned: 'gunicorn' with pid 127
+2019-09-17 08:34:07,527 INFO spawned: 'nginx' with pid 128
+2019-09-17 08:34:13,161 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:34:13,163 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 08:34:13,165 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 09:31:31,312 WARN received SIGTERM indicating exit request
+2019-09-17 09:31:31,314 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 09:31:31,411 INFO stopped: nginx (exit status 0)
+2019-09-17 09:31:32,663 INFO stopped: gunicorn (exit status 0)
+2019-09-17 09:31:34,374 INFO waiting for dramatiq to die
+2019-09-17 09:31:35,489 INFO stopped: dramatiq (exit status 0)
+2019-09-17 09:32:39,858 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 09:32:39,866 INFO RPC interface 'supervisor' initialized
+2019-09-17 09:32:39,867 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 09:32:39,868 INFO supervisord started with pid 1
+2019-09-17 09:32:40,880 INFO spawned: 'dramatiq' with pid 131
+2019-09-17 09:32:40,888 INFO spawned: 'gunicorn' with pid 132
+2019-09-17 09:32:40,915 INFO spawned: 'nginx' with pid 133
+2019-09-17 09:32:46,826 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 09:32:46,827 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 09:32:46,828 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 11:31:02,094 WARN received SIGTERM indicating exit request
+2019-09-17 11:31:02,100 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-17 11:31:02,191 INFO stopped: nginx (exit status 0)
+2019-09-17 11:31:03,449 INFO stopped: gunicorn (exit status 0)
+2019-09-17 11:31:05,178 INFO waiting for dramatiq to die
+2019-09-17 11:31:06,298 INFO stopped: dramatiq (exit status 0)
+2019-09-17 11:31:29,570 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 11:31:29,579 INFO RPC interface 'supervisor' initialized
+2019-09-17 11:31:29,579 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 11:31:29,580 INFO supervisord started with pid 1
+2019-09-17 11:31:30,591 INFO spawned: 'dramatiq' with pid 104
+2019-09-17 11:31:30,599 INFO spawned: 'gunicorn' with pid 105
+2019-09-17 11:31:30,616 INFO spawned: 'nginx' with pid 106
+2019-09-17 11:31:36,144 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 11:31:36,146 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 11:31:36,147 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 23:18:59,700 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-17 23:18:59,712 INFO RPC interface 'supervisor' initialized
+2019-09-17 23:18:59,713 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-17 23:18:59,713 INFO supervisord started with pid 1
+2019-09-17 23:19:00,724 INFO spawned: 'dramatiq' with pid 125
+2019-09-17 23:19:00,733 INFO spawned: 'gunicorn' with pid 126
+2019-09-17 23:19:00,740 INFO spawned: 'nginx' with pid 127
+2019-09-17 23:19:05,780 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 23:19:05,781 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-17 23:19:05,783 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 00:28:41,105 WARN received SIGTERM indicating exit request
+2019-09-18 00:28:41,107 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-18 00:28:41,228 INFO stopped: nginx (exit status 0)
+2019-09-18 00:28:42,470 INFO stopped: gunicorn (exit status 0)
+2019-09-18 00:28:44,599 INFO waiting for dramatiq to die
+2019-09-18 00:28:44,611 INFO stopped: dramatiq (exit status 0)
+2019-09-18 01:00:09,967 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-18 01:00:09,975 INFO RPC interface 'supervisor' initialized
+2019-09-18 01:00:09,976 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-18 01:00:09,977 INFO supervisord started with pid 1
+2019-09-18 01:00:10,986 INFO spawned: 'dramatiq' with pid 122
+2019-09-18 01:00:11,001 INFO spawned: 'gunicorn' with pid 123
+2019-09-18 01:00:11,039 INFO spawned: 'nginx' with pid 124
+2019-09-18 01:00:16,051 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 01:00:16,054 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 01:00:16,056 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 01:01:35,663 WARN received SIGTERM indicating exit request
+2019-09-18 01:01:35,664 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-18 01:01:35,777 INFO stopped: nginx (exit status 0)
+2019-09-18 01:01:37,028 INFO stopped: gunicorn (exit status 0)
+2019-09-18 01:01:38,880 INFO waiting for dramatiq to die
+2019-09-18 01:01:39,977 INFO stopped: dramatiq (exit status 0)
+2019-09-18 01:28:02,469 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-18 01:28:02,477 INFO RPC interface 'supervisor' initialized
+2019-09-18 01:28:02,478 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-18 01:28:02,479 INFO supervisord started with pid 1
+2019-09-18 01:28:03,493 INFO spawned: 'dramatiq' with pid 132
+2019-09-18 01:28:03,506 INFO spawned: 'gunicorn' with pid 133
+2019-09-18 01:28:03,525 INFO spawned: 'nginx' with pid 134
+2019-09-18 01:28:09,349 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 01:28:09,350 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 01:28:09,351 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-18 13:18:42,167 WARN received SIGTERM indicating exit request
+2019-09-18 13:18:42,168 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-18 13:18:42,289 INFO stopped: nginx (exit status 0)
+2019-09-18 13:18:43,533 INFO stopped: gunicorn (exit status 0)
+2019-09-18 13:18:45,169 INFO waiting for dramatiq to die
+2019-09-18 13:18:46,343 INFO stopped: dramatiq (exit status 0)
+2019-09-19 00:56:23,379 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-19 00:56:23,394 INFO RPC interface 'supervisor' initialized
+2019-09-19 00:56:23,395 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-19 00:56:23,396 INFO supervisord started with pid 1
+2019-09-19 00:56:24,407 INFO spawned: 'dramatiq' with pid 130
+2019-09-19 00:56:24,426 INFO spawned: 'gunicorn' with pid 131
+2019-09-19 00:56:24,435 INFO spawned: 'nginx' with pid 132
+2019-09-19 00:56:29,606 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 00:56:29,608 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 00:56:29,609 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 01:46:35,012 WARN received SIGTERM indicating exit request
+2019-09-19 01:46:35,013 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-19 01:46:35,121 INFO stopped: nginx (exit status 0)
+2019-09-19 01:46:36,367 INFO stopped: gunicorn (exit status 0)
+2019-09-19 01:46:38,781 INFO waiting for dramatiq to die
+2019-09-19 01:46:38,801 INFO stopped: dramatiq (exit status 0)
+2019-09-19 01:47:41,037 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-19 01:47:41,045 INFO RPC interface 'supervisor' initialized
+2019-09-19 01:47:41,046 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-19 01:47:41,046 INFO supervisord started with pid 1
+2019-09-19 01:47:41,702 INFO spawned: 'dramatiq' with pid 159
+2019-09-19 01:47:41,706 INFO spawned: 'gunicorn' with pid 160
+2019-09-19 01:47:41,723 INFO spawned: 'nginx' with pid 161
+2019-09-19 01:47:46,938 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 01:47:46,939 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 01:47:46,940 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 05:59:55,791 WARN received SIGTERM indicating exit request
+2019-09-19 05:59:55,794 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-19 05:59:55,907 INFO stopped: nginx (exit status 0)
+2019-09-19 05:59:57,042 INFO stopped: gunicorn (exit status 0)
+2019-09-19 05:59:57,045 INFO stopped: dramatiq (terminated by SIGTERM)
+2019-09-19 06:05:00,652 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-19 06:05:00,665 INFO RPC interface 'supervisor' initialized
+2019-09-19 06:05:00,665 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-19 06:05:00,666 INFO supervisord started with pid 1
+2019-09-19 06:05:01,073 INFO spawned: 'dramatiq' with pid 151
+2019-09-19 06:05:01,080 INFO spawned: 'gunicorn' with pid 152
+2019-09-19 06:05:01,093 INFO spawned: 'nginx' with pid 153
+2019-09-19 06:05:06,307 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 06:05:06,308 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 06:05:06,308 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-19 06:13:49,032 WARN received SIGTERM indicating exit request
+2019-09-19 06:13:49,034 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-19 06:13:49,137 INFO stopped: nginx (exit status 0)
+2019-09-19 06:13:50,388 INFO stopped: gunicorn (exit status 0)
+2019-09-19 06:13:50,392 INFO stopped: dramatiq (terminated by SIGTERM)
+2019-09-21 02:01:49,935 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2019-09-21 02:01:49,950 INFO RPC interface 'supervisor' initialized
+2019-09-21 02:01:49,951 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2019-09-21 02:01:49,952 INFO supervisord started with pid 1
+2019-09-21 02:01:50,437 INFO spawned: 'dramatiq' with pid 153
+2019-09-21 02:01:50,453 INFO spawned: 'gunicorn' with pid 154
+2019-09-21 02:01:50,473 INFO spawned: 'nginx' with pid 155
+2019-09-21 02:01:55,685 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-21 02:01:55,685 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-21 02:01:55,685 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2019-09-21 02:19:01,929 WARN received SIGTERM indicating exit request
+2019-09-21 02:19:01,931 INFO waiting for dramatiq, gunicorn, nginx to die
+2019-09-21 02:19:02,029 INFO stopped: nginx (exit status 0)
+2019-09-21 02:19:05,037 INFO waiting for dramatiq, gunicorn to die
+2019-09-21 02:19:07,871 WARN killing 'gunicorn' (154) with SIGKILL
+2019-09-21 02:19:07,881 INFO stopped: gunicorn (terminated by SIGKILL)
+2019-09-21 02:19:07,882 INFO reaped unknown pid 163
+2019-09-21 02:19:07,883 INFO reaped unknown pid 164
+2019-09-21 02:19:07,889 INFO stopped: dramatiq (terminated by SIGTERM)
+2019-09-21 02:19:07,889 INFO reaped unknown pid 161
