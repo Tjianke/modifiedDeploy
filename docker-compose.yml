@@ -23,7 +23,7 @@ services:
     image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/judge_server
     container_name: judge-server
     restart: always
-    read_only: true
+    read_only: false
     cap_drop:
       - SETPCAP
       - MKNOD
@@ -44,8 +44,9 @@ services:
       # - judger_debug=1
   
   oj-backend:
-    image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
-    container_name: oj-backend
+    #image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
+    image: ybtjk2/test
+    container_name: oj-backend2
     restart: always
     depends_on:
       - oj-redis
@@ -61,5 +62,6 @@ services:
       # - FORCE_HTTPS=1
       # - STATIC_CDN_HOST=cdn.oj.com
     ports:
+      - "0.0.0.0:9856:22"
       - "0.0.0.0:80:8000"
       - "0.0.0.0:443:1443"
