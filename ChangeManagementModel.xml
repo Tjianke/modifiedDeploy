@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeraDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ModelDescriberSchema.xsd">
+  <HeraDefinition Namespace="ChangeManagement">
+    <NodeDefinitions>
+      <NodeDefinition Name="PullRequest">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Pull Request</Description>
+        <Properties>
+          <Property Name="Title" Type="string" Description="User-defined description of pull request" />
+          <Property Name="ExternalId" Type="string" Description="ADO-defined unique identifier, only digits" />
+          <Property Name="Uri" Type="string" Description="URI for ADO Pull Request record, valid URL " />
+          <Property Name="LastModifiedDateTime" Type="DateTime" Description="When the pull request was last modified" />
+          <Property Name="LastSignedOffDateTime" Type="DateTime" Description="When the pull request was last signed off on" />
+          <Property Name="DataOwner" Type="AdoDataOwner" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="ExternalId">
+          <Description>ExternalId, can unique identify a pull request, ExternalId contains only digits i.e. 712107</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="Commit">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Commit</Description>
+        <Properties>
+          <Property Name="CommitId" Type="string" Description="ADO-defined unique identifier" />
+          <Property Name="MergedTime" Type="DateTime" />
+          <Property Name="DataOwner" Type="AdoDataOwner" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="CommitId">
+          <Description>ADO-defined unique identifier. String value with no specific format.</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="Repository">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>ADO Repository</Description>
+        <Properties>
+          <Property Name="Name" Type="string" Description="Name of the repository" />
+          <Property Name="Organization" Type="string" Description="ADO Account Name" />
+          <Property Name="Project" Type="string" Description="ADO Project Name" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="Name Organization Project">
+          <Description>Repository Name, Organization and Project</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="Service">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Service in Service Tree</Description>
+        <Properties>
+          <Property Name="ServiceTreeId" Type="string" Description="Service tree Id" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="ServiceTreeId">
+          <Description>Service Tree Id</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="OfficialBuild" Interfaces="Build">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>VSO Official Build</Description>
+        <Properties>
+          <Property Name="Series" Type="string" Description="Series description; can be the repository name" />
+          <Property Name="Type" Type="string" Description="Workload defined type for the official build" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="BuildNumber Series">
+          <Description>Build Number and Build Series unique identify the official build</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="AdoBuild" Interfaces="Build">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Azure Dev Ops Build</Description>
+        <Properties>
+          <Property Name="DataOwner" Type="AdoDataOwner" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="Organization Project BuildId">
+          <Description>Organization, Project and BuildId unique identify the ADO build</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="Identity">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Company alias of the person performing the change management activity</Description>
+        <Properties>
+          <Property Name="Upn" Type="string" Description="String - basic email address format" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="Upn">
+          <Description>string - basic email address format</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="BuildEvidence">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>Build Evidence</Description>
+        <Properties>
+          <Property Name="Type" Type="string" />
+          <Property Name="Value" Type="string" />
+          <Property Name="Link" Type="string" />
+          <Property Name="DataOwner" Type="AdoDataOwner" />
+        </Properties>
+        <UniqueConstraint UniqueProperties="Type Link">
+          <Description>Build Evidence type and link</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+    </NodeDefinitions>
+    <RelationshipDefinitions>
+      <RelationshipDefinition FromNode="PullRequest" Name="CreatedBy" ToNode="Identity" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="PullRequest" Name="CompletedBy" ToNode="Identity" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="PullRequest" Name="LastPushedBy" ToNode="Identity" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="PullRequest" Name="ApprovedBy" ToNode="Identity" Mapping="ManyToOne">
+        <Description>Only need the last Approved By Info</Description>
+      </RelationshipDefinition>
+      <RelationshipDefinition FromNode="PullRequest" Name="AcceptAndCompletedBy" ToNode="Identity" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="PullRequest" Name="FastRevertedBy" ToNode="Identity" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="PullRequest" Name="AssociatedWith" ToNode="Commit" Mapping="OneToMany" />
+      <RelationshipDefinition FromNode="Commit" Name="AssociatedWith" ToNode="Service" Mapping="ManyToMany">
+        <Description>List of 0 to many service tree ids covered in the commit.</Description>
+      </RelationshipDefinition>
+      <RelationshipDefinition FromNode="Commit" Name="In" ToNode="Repository" Mapping="ManyToMany" />
+      <RelationshipDefinition FromNode="Commit" Name="In" ToNode="OfficialBuild" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="OfficialBuild" Name="BuildAgainst" ToNode="Repository" Mapping="ManyToOne" />
+      <RelationshipDefinition FromNode="OfficialBuild" Name="Requests" ToNode="BuildEvidence" Mapping="OneToMany" />
+    </RelationshipDefinitions>
+  </HeraDefinition>
+</HeraDefinitions>
