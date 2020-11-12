@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeraDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ModelDescriberSchema.xsd">
+  <HeraDefinition Namespace="Substrate">
+    <NodeDefinitions>
+      <!-- Model A Train Deployment Related -->
+      <NodeDefinition Name="Component" Interfaces="DeploymentUnit">
+        <Owner>hera@microsoft.com</Owner>
+        <Properties>
+          <Property Name="Version" Type="string"/>
+          <Property Name="ResolvedToLatest" Type="bool"/>
+          <Property Name="SeededFromExistingLink" Type="bool"/>
+          <Property Name="NewSeeding" Type="bool"/>
+        </Properties>
+        <UniqueConstraint UniqueProperties="Name Version">
+          <Description>Description of the UniqueConstraint</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="ModelADeployment" Interfaces="Deployment">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>This is a description for TestContainer</Description>
+        <Properties>
+          <Property Name="LockboxId" Type="string"/>
+          <Property Name="InitiatedByWorkflowId" Type="string"/>
+          <Property Name="ApprovalWorkflowId" Type="string"/>
+          <Property Name="Role" Type="ServerRole" Description="Machine Definition. E.g. BE, FE, CAMgt3 ..."/>
+        </Properties>
+        <UniqueConstraint UniqueProperties="DeploymentId">
+          <Description>External ID and unique identifier of deployment. E.g. Substrate_15.20.1234.5_{Workload}_{Environment}_{Type}_{Ring}_{Role}</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <!-- Model A Emergency Patch Deployment Related -->
+      <NodeDefinition Name="ModelAPatch" Interfaces="DeploymentUnit">
+        <Owner>hera@microsoft.com</Owner>
+        <Properties>
+          <!-- We will put Patch Id into Name -->
+          <Property Name="IncidentId" Type="string" Description="ID of incident that patch is in response to"/>
+          <Property Name="EscalationTeam" Type="string" Description="On call team for patch requestor"/>
+          <Property Name="Reason" Type="string" Description="Requestor defined reason for patch"/>
+          <Property Name="Actions" Type="string" Description="Workload defined actions that patch may take in addition to service deployment;  For Substrate will be Json config that defines what the patch is doing"/>
+        </Properties>
+        <UniqueConstraint UniqueProperties="Name">
+          <Description>Description of the UniqueConstraint</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="ModelAPatchDeployment" Interfaces="Deployment">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>This is a description for TestContainer</Description>
+        <Properties>
+          <Property Name="LockboxId" Type="string" Description="Unique id of the lockbox request generated for approval"/>
+          <Property Name="ApprovalWorkflowId" Type="string" />
+          <Property Name="Saturation" Type="double" Description="Max saturation that the patch achieved for the machines it was assigned to update"/>
+          <Property Name="Filter" Type="string" Description="JSON containing the definition of the filters used to determine which machines receive the emergency patch"/>
+        </Properties>
+        <UniqueConstraint UniqueProperties="DeploymentId">
+          <Description>External ID and unique identifier of deployment.</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <!-- Model B/B2 Deployment Related -->
+      <NodeDefinition Name="MicroService" Interfaces="DeploymentUnit">
+        <Owner>hera@microsoft.com</Owner>
+        <Properties>
+          <Property Name="ServiceBuildLabel" Type="string" Description="This will be the service build label like 'Search_16-01-3213-002', since we do not have a way to get the artifact build number for those deployments not triggered via stratus pipeline, include manual deployments and SCD." />
+        </Properties>
+        <UniqueConstraint UniqueProperties="ServiceBuildLabel">
+          <Description>Description of the UniqueConstraint</Description>
+        </UniqueConstraint>
+      </NodeDefinition>      
+      <NodeDefinition Name="ModelBDeployment" Interfaces="Deployment">
+        <Owner>hera@microsoft.com</Owner>
+        <Description>This is a description for ModelBDeployment</Description>
+        <Properties>
+          <Property Name="LockboxId" Type="string" Description="The lockboxId for the release/depoyment request in stratus. This could be empty if the deployment is not triggered from stratus pipeline, i.e.: manual PFGold check in."/>
+          <Property Name="ReleaseId" Type="string"  Description="The Azure DevOps organization from which this service is release."/>
+          <Property Name="ServiceBuildLabel" Type="string"/>
+          <Property Name="VirtualEnvironment" Type="string"/>
+          <Property Name="VERolloutId" Type="string" Description="The Autopilot rollout id in which this BuildLabel belongs to." />
+        </Properties>
+        <UniqueConstraint UniqueProperties="DeploymentId">
+          <Description>External ID and unique identifier of deployment.</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+      <NodeDefinition Name="ModelBPatchDeployment" Interfaces="Deployment">
+        <Owner>hera@microsoft.com</Owner>
+        <Properties>
+          <Property Name="PatchedFiles" Type="string[]" Description="The list of file paths being patched by this SCD patch deployment. Sample value: //depot/AutopilotService/Global/VirtualEnvironments/ASG_O365/Prod/Replacement.Search.Search_16-01-3213-002.webapp!IniFiles!SearchService.settings.ini, //depot/AutopilotService/Global/VirtualEnvironments/ASG_O365/Prod/Replacement.Search.Search_16-01-3213-008.webapp!IniFiles!SearchService.settings.ini"/>
+          <Property Name="IncidentId" Type="string" Description="The incidentId associated with this SCD deployment."/>
+          <Property Name="PFGoldChangelist" Type="string" Description="The PFGold changelist number that triggered this SCD patch deployment. Sample value: 1904839"/>
+          <Property Name="VirtualEnvironment" Type="string"/>
+          <Property Name="VERolloutId" Type="string" Description="The Autopilot rollout id in which this BuildLabel belongs to." />
+        </Properties>
+        <UniqueConstraint UniqueProperties="DeploymentId">
+          <Description>External ID and unique identifier of deployment.</Description>
+        </UniqueConstraint>
+      </NodeDefinition>
+    </NodeDefinitions>
+    <RelationshipDefinitions>
+      <!-- Model A Train Deployment Related -->
+      <RelationshipDefinition Name="DeployedBy" Mapping="ManyToMany" FromNode="Component" ToNode="ModelADeployment" />
+      <RelationshipDefinition Name="BelongsTo" Mapping="ManyToOne" FromNode="Component" ToNode="Repository" />
+      <RelationshipDefinition Name="BelongsTo" Mapping="ManyToOne" FromNode="Component" ToNode="OfficialBuild" />
+      <RelationshipDefinition Name="Uses" Mapping="ManyToOne" FromNode="ModelADeployment" ToNode="OfficialBuild" />
+      <!-- Model A Emergency Patch Deployment Related -->
+      <RelationshipDefinition Name="DeployedBy" Mapping="ManyToMany" FromNode="ModelAPatch" ToNode="ModelAPatchDeployment" />
+      <RelationshipDefinition Name="BelongsTo" Mapping="ManyToOne" FromNode="ModelAPatch" ToNode="AdoBuild" />
+      <RelationshipDefinition Name="BuildAgainst" Mapping="ManyToOne" FromNode="AdoBuild" ToNode="Repository" />
+      <RelationshipDefinition Name="In" Mapping="ManyToOne" FromNode="Commit" ToNode="AdoBuild" />
+      <!-- Model B/B2 Deployment Related -->
+      <RelationshipDefinition Name="DeployedBy" Mapping="ManyToMany" FromNode="MicroService" ToNode="ModelBDeployment" />
+      <RelationshipDefinition Name="BelongsTo" Mapping="ManyToOne" FromNode="MicroService" ToNode="AdoBuild" />
+      <RelationshipDefinition Name="BelongsTo" Mapping="ManyToOne" FromNode="MicroService" ToNode="OfficialBuild" />
+      <RelationshipDefinition Name="Deploys" Mapping="ManyToOne" FromNode="MicroService" ToNode="Service" />
+      <RelationshipDefinition Name="DeployedBy" Mapping="ManyToMany" FromNode="MicroService" ToNode="ModelBPatchDeployment" />
+    </RelationshipDefinitions>
+  </HeraDefinition>
+</HeraDefinitions>
